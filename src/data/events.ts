@@ -115,5 +115,28 @@ export default new FarmCategory(
             ],
             [],
         ),
+        new Farm(
+            'Profundity',
+            'fleet',
+            'light',
+            [
+                new FarmUnit('Admiral Raddus', 7, 13, 9),
+                new FarmUnit('Cassian Andor', 7, 13, 8),
+                new FarmUnit('Dash Rendar', 7, 13, 7),
+                new FarmUnit('Mon Mothma', 7, 13, 5),
+                new FarmUnit('Bistan', 7, 13, 5),
+                new FarmUnit('Jyn Erso', 7, 13, 5),
+                new FarmUnit('Hera Syndulla', 7, 13, 5),
+                spacer,
+                new FarmUnit('Outrider', 7),
+                new FarmUnit('Cassian\'s U-wing', 7),
+                new FarmUnit('Bistan\'s U-wing', 7),
+                new FarmUnit('Wedge Antilles\'s X-wing', 7),
+                new FarmUnit('Biggs Darklighter\'s X-wing', 7),
+                new FarmUnit('Rebel Y-wing', 7),
+                new FarmUnit('Ghost', 7),
+            ],
+            [],
+        ),
     ]
 )
