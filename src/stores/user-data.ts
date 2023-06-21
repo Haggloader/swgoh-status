@@ -14,7 +14,7 @@ function createLocalStorage<T>(key: string, def: T) {
             localStorage.setItem(key, JSON.stringify(value))
             set(value)
         },
-        //update,
+        update,
     }
 }
 
