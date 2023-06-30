@@ -51,6 +51,7 @@
     }
     button:disabled {
         color: #888;
+		background: #696969;
     }
 </style>
 
