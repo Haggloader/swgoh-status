@@ -109,8 +109,8 @@ export default new FarmCategory(
             'event',
             'light',
             [
-                new FarmUnit('CALKESTIS', 7, 12),
-                new FarmUnit('CEREJUNDA', 7, 12),
+                new FarmUnit('Cal Kestis', 7, 12),
+                new FarmUnit('Cera Junda', 7, 12),
                 new FarmUnit('Merrin', 7, 12),
                 new FarmUnit('Tarfful', 7, 12),
                 new FarmUnit('Saw Gerrera', 7, 12),
