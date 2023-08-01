@@ -168,5 +168,17 @@ export default new FarmCategory(
                 new FarmUnit('Raddus', 5),
             ],
         ),
-    ]
+		new Farm(
+            'Leia Organa - Part 1/3',
+            'legend',
+            'light',
+            [
+                new FarmUnit('Captain Rex', 7, 13, 7),
+                new FarmUnit('Princess Kneesaa', 7, 13, 7),
+                new FarmUnit('Wicket', 7, 13, 3),
+                new FarmUnit('Lando Calrissian', 7, 13, 5),
+                new FarmUnit('Admiral Ackbar', 7, 13, 3),
+            ],
+		),
+	]
 )
