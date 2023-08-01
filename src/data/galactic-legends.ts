@@ -169,7 +169,7 @@ export default new FarmCategory(
             ],
         ),
 		new Farm(
-            'Leia Organa - Part 1/3',
+            'Leia Organa',
             'legend',
             'light',
             [
@@ -179,6 +179,7 @@ export default new FarmCategory(
                 new FarmUnit('Lando Calrissian', 7, 13, 5),
                 new FarmUnit('Admiral Ackbar', 7, 13, 3),
             ],
+			[],
 		),
 	]
 )
