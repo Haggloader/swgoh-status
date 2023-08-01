@@ -6,7 +6,7 @@
 
     const playerUnit = $units[farmUnit.name]
     const gameUnit = $characters[farmUnit.name] ?? $ships[farmUnit.name]
-    const side = {'Light Side': 'light', 'Dark Side': 'dark'}[gameUnit.alignment]
+    const side = gameUnit ? {'Light Side': 'light', 'Dark Side': 'dark', 'Neutral': 'neutral'}[gameUnit.alignment] : null
     //console.log(gameUnit, playerUnit)
 
     const hasStars = playerUnit && (playerUnit.rarity >= farmUnit.stars)
