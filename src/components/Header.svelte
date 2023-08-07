@@ -30,7 +30,7 @@
         color: #ffff88;
         font-size: 1.2rem;
     }
-    form.1 {
+    form {
         display: inline-block;
     }
     input, button {
