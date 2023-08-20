@@ -26,7 +26,7 @@ export const fetch = async function() {
     code.set(player_id)
 
     const data = await getCachedData(`player_${player_id}`, 3600000, async () => {
-        return await fetch_json(`http://api.swgoh.gg/player/${player_id}/allow-cors', {mode:'cors'})
+        return await fetch_json(`http://api.swgoh.gg/player/${player_id}/')
     })
     if (data === null) {
         error.set(true)
