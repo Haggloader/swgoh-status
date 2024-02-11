@@ -125,7 +125,7 @@ export default new FarmCategory(
                 new FarmUnit('Kelleran Beq', 7, 12),
                 new FarmUnit('Paz Vizsla', 7, 12),
                 new FarmUnit('IG-12 & Grogu', 7, 12),
-                new FarmUnit('The-Mandalorian', 7, 12),
+                new FarmUnit('The Mandalorian', 7, 12),
             ],
             [],
         ),
