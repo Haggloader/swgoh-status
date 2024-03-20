@@ -15,8 +15,6 @@
     const hasRelic = !farmUnit.gear_level || !farmUnit.relic_level || (playerUnit && (playerUnit.gear_level >= 13 && ((playerUnit.relic_tier - 2) >= farmUnit.relic_level)))
 
     const hasCount = (hasStars | 0) + (hasGear | 0) + (hasRelic | 0)
-    const playerSpeed = playerUnit?.stats?.speed ?? 0;
-    const gameSpeed = gameUnit?.stats?.speed ?? 0;
 </script>
 
 <style type="text/scss">
