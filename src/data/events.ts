@@ -134,8 +134,8 @@ export default new FarmCategory(
             'event',
             'light',
             [
-                new FarmUnit('Bossnass', 7, 12),
-                new FarmUnit('captaintarpals', 7, 12),
+                new FarmUnit('Boss Nass', 7, 12),
+                new FarmUnit('Captain Tarpals', 7, 12),
             ],
             [],
         )    
