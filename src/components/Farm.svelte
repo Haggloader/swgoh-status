@@ -51,7 +51,6 @@
     <colgroup span="1" class="stars"></colgroup>
     <colgroup span="1" class="gear"></colgroup>
     <colgroup span="1" class="relic"></colgroup>
-    <colgroup span="1" class="power"></colgroup>
     <thead>
         <tr>
             <td colspan="11" class="{farm.side}">{farm.name}<span class:has={hasUnit}>{hasUnit ? '✔' : '✖'}</span></td>
@@ -61,7 +60,6 @@
             <th>Stars</th>
             <th>Gear</th>
             <th>Relic</th>
-            <th>Power</th>
         </tr>
     </thead>
     <tbody>

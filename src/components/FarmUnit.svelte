@@ -10,7 +10,6 @@
     //console.log(gameUnit, playerUnit)
 
     const hasStars = playerUnit && (playerUnit.rarity >= farmUnit.stars)
-    const hasPower = playerUnit && (playerUnit.power >= farmUnit.power)
     const almostHasGear = farmUnit.gear_level && (playerUnit && (farmUnit.gear_level - playerUnit.gear_level === 1))
     const hasGear = !farmUnit.gear_level || (playerUnit && (playerUnit.gear_level >= farmUnit.gear_level))
     const hasRelic = !farmUnit.gear_level || !farmUnit.relic_level || (playerUnit && (playerUnit.gear_level >= 13 && ((playerUnit.relic_tier - 2) >= farmUnit.relic_level)))
@@ -182,10 +181,6 @@
                     <span>/</span>
                     <span>{farmUnit.stars}</span>
                 </td>
-                <td class="numbers {hasPower ? 'success' : 'missing'}">
-                    <span>{playerUnit.power}</span>
-                    <span>/</span>
-                    <span>{farmUnit.power}</span>
                 {#if farmUnit.gear_level}
                     <td class="numbers numbers2 {hasGear ? 'success' : (almostHasGear ? 'success-2' : 'missing')}">
                         <span>{playerUnit.gear_level}</span>
