@@ -10,11 +10,11 @@ export default new FarmCategory(
             'event',
             'dark',
             [
-                new FarmUnit('Second Sister', 7, 13, 5, 1),
-                new FarmUnit('Ninth Sister', 7, 13, 5, 5),
-                new FarmUnit('Seventh Sister', 7, 13, 5, 1000),
-                new FarmUnit('Eighth Brother', 7, 13, 5, 10000),
-                new FarmUnit('Fifth Brother', 7, 13, 5, 25000),
+                new FarmUnit('Second Sister', 7, 13, 5),
+                new FarmUnit('Ninth Sister', 7, 13, 5),
+                new FarmUnit('Seventh Sister', 7, 13, 5),
+                new FarmUnit('Eighth Brother', 7, 13, 5),
+                new FarmUnit('Fifth Brother', 7, 13, 5),
             ],
             [],
         ),
@@ -129,5 +129,15 @@ export default new FarmCategory(
             ],
             [],
         ),
+        new Farm(
+            'Gungans',
+            'event',
+            'light',
+            [
+                new FarmUnit('Bossnass', 7, 12),
+                new FarmUnit('captaintarpals', 7, 12),
+            ],
+            [],
+        )    
     ]
 )
