@@ -1,30 +1,31 @@
 <script>
-    import { useCategories } from '../stores/user-data';
-    import Farm from './Farm.svelte';
+    import { useCategories } from '../stores/user-data'
 
-    export let name = ''; // Set a default value for name
+    import Farm from './Farm.svelte'
+
+    export let name
     export let farms = []
 </script>
 
 <style>
-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(27em, 1fr));
-  grid-gap: 2em;
-  justify-content: center;
-  margin: 0 1rem 1rem 1rem;
-}
-
-h2 {
-  background: #2b3d4f;
-  border-top: 1px solid #3b4d5f;
-  border-bottom: 1px solid #3b4d5f;
-  grid-column: span 1 / -1; /* More concise way to span all columns */
-  margin: 0 0 -1rem 0;
-  padding: 0.1rem 0 0.3rem 0;
-  font-size: 1.3rem;
-  text-align: center;
-}
+    section {
+        align-items: flex-start;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 27em);
+        grid-gap: 2em;
+        justify-content: center;
+        margin: 0 1rem 1rem 1rem;
+    }
+    h2 {
+        background: #2b3d4f;
+        border-top: 1px solid #3b4d5f;
+        border-bottom: 1px solid #3b4d5f;
+        grid-column: 1/-1;
+        margin: 0 0 -1rem 0;
+        padding: 0.1rem 0 0.3rem 0;
+        font-size: 1.3rem;
+        text-align: center;
+    }
 </style>
 
 <section>
