@@ -134,10 +134,10 @@ export default new FarmCategory(
             'event',
             'light',
             [
-                new FarmUnit('Boss Nass', 7, 12),
-                new FarmUnit('Captain Tarpals', 7, 12),
-                new FarmUnit('Gungan Boomadier', 7, 12),
-                new FarmUnit('Gungan Phalanx', 7, 12),
+                new FarmUnit('Boss Nass', 7, 12, 5),
+                new FarmUnit('Captain Tarpals', 7, 12, 5),
+                new FarmUnit('Gungan Boomadier', 7, 12, 5),
+                new FarmUnit('Gungan Phalanx', 7, 12, 5),
             ],
             [],
         )    
