@@ -55,7 +55,7 @@ export default new FarmCategory(
             'event',
             'light',
             [
-                new FarmUnit('Ahsoka Tano(Snips)', 7, 12),
+                new FarmUnit('Ahsoka Tano (Snips)', 7, 12),
                 new FarmUnit('C-3PO', 7, 12),
                 new FarmUnit('General Kenobi', 7, 12),
                 new FarmUnit('Padmé Amidala', 7, 12),
